@@ -10,4 +10,8 @@ function tampiL(shown,hidden) {
 function laguu() {
     lagu.play();
 }
+function lagstop() {
+    lagu.pause();
+}
+
 
