@@ -68,6 +68,9 @@ function mulai() {
   }, 10000);
 }
 
+
+
+
 function pukul() {
   skor++;
   papanSkor.textContent = skor;

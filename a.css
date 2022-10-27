@@ -8,6 +8,7 @@ body {
 
 
 .bigMouse{
+    background-color: #0fec08;
     background-image: url("./assets/bg.png");
     width: 1200px;
     height: 600px;
