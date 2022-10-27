@@ -82,3 +82,20 @@
     image-orientation: flip;
     
 }
+
+
+.gbt {
+
+    width: 100px;
+}
+.ktt {
+    background-color: rgb(3, 78, 13);
+    width: 140px;
+    height: 70%;
+    max-width: max-content;
+    display: block;
+}
+
+p9 {
+    font-size: 20px;
+}

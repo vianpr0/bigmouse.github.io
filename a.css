@@ -27,13 +27,7 @@ body {
 
    
 }
-#page2 {
-    text-align: center;
-    margin: auto;
-    padding: 100px;
-    display: none;
-   
-}
+
 
 #page1 h1 {
     color: rgb(52, 11, 236);
@@ -82,6 +76,7 @@ button {
     background-color: green;
     color: aliceblue;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .jtikus {
@@ -109,9 +104,7 @@ button {
 }
 
 
-#page2 .backL {
-    padding: 50px;
-}
+
 
 .backL{
     padding: 20px;
@@ -144,14 +137,14 @@ button {
     display: grid;
     column-gap: 50px;
     grid-template-columns: 300px 300px ;
-    background-color: #0fec08;
+    background-color: #0d8d08e0;
     padding: 10px;
     margin-left: 200px;
     text-align: center;
     justify-content: center;
     row-gap: 10px;
     border-radius: 20px;
-    opacity: 1.5;
+  
   }
   
   .grid-item {
@@ -160,13 +153,28 @@ button {
     padding: 20px;
     font-size: 30px;
     text-align: center;
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: 300px 300px ;
+    
+  }
+  .grid-item1 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 2px;
+    font-size: 30px;
+    display: grid;
+    align-items: center;
+    column-gap: 80px;
+    grid-template-columns: 50px 50px ;
     
   }
 
   .some {
+    color: rgb(29, 3, 99);
     display: grid;
-    grid-template-columns: 200px 200px;
-    column-gap: 300px;
+    grid-template-columns: 200px 500px;
+    column-gap: 200px;
   }
 .grid-containera {
     width: 800px;
@@ -174,15 +182,16 @@ button {
     display: grid;
     column-gap: 50px;
     grid-template-columns: 300px 300px ;
-    background-color: #0fec08;
+    background-color: #0d8d08e0;
     padding: 10px;
     margin-left: 200px;
     text-align: center;
     justify-content: center;
     row-gap: 10px;
     border-radius: 20px;
-    opacity: 1.5;
+    
   }
+
   
   .grid-itema {
     background-color: rgba(255, 255, 255, 0.8);
@@ -192,10 +201,49 @@ button {
     text-align: center;
     cursor: pointer;
   }
+  .grid-itema2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .grid-itema2-a {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    width: 800px;
+    text-align: center;
+    cursor: pointer;
+  }
   .somea {
     display: grid;
     grid-template-columns: 200px 200px;
     column-gap: 300px;
+    color: #1d045f;
   }
 
-  
+
+  .some29 {
+    font-size: 50px;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
